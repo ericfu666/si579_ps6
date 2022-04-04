@@ -14,7 +14,7 @@ function App() {
   return (
     <main className="container">
     <h1 className ="row">Rhyme Finder React (579 Problem Set 6)</h1>
-    <h2><a href = 'https://ericfu666.github.io/si579_ps6/'>Link to my repo</a> </h2>
+    <h2><a href = 'https://github.com/ericfu666/si579_ps6'>Link to my repo</a> </h2>
     <SavedWords savedWordList={savedWordList}/>
     <InputForm setWordOutputList={setWordOutputList} setInputWord={setInputWord} setIsRhyme={setIsRhyme}/>
     <Output wordOutputList={wordOutputList} setSavedWordList={setSavedWordList} inputWord={inputWord} isRhyme={isRhyme}/>
